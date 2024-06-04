@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: application-components
+  description: system container creation test
+spec:
+  owner: group:default/backstage-admins
