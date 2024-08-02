@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: test
+  description: A test
+spec:
+  owner: group:default/developers
