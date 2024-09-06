@@ -1,0 +1,28 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: croway-skeleton-changes-prod
+  labels:
+    app : croway-skeleton-changes
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: croway-skeleton-changes-qa
+  labels:
+    app : croway-skeleton-changes
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: croway-skeleton-changes-dev
+  labels:
+    app : croway-skeleton-changes
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: croway-skeleton-changes-build
+  labels:
+    app : croway-skeleton-changes
